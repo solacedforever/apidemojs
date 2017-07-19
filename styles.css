@@ -1,0 +1,23 @@
+/*.recipe {
+  padding:100px;
+  display:flex;
+  flex-wrap;*/
+}
+div {
+  display:flex;
+  flex-wrap:wrap;
+}
+
+.container {
+  display:flex;
+  flex-wrap:wrap;
+}
+
+.recipe {
+  width:200px;
+  padding:20px;
+
+}
+img {
+  width:200px;
+}
