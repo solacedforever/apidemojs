@@ -20,10 +20,10 @@ button.addEventListener("click", function searchRecipes() {
             let template = "";
             response.results.forEach(function(data) {
               template += `
-           <div recipe class="recipe">
+              <div recipe class="recipe">
               <img src="${data.thumbnail}"
-            <h3> <a href="${data.href}"
-             target"blank">${data.title}</a></h3></div>`;
+              <h3> <a href="${data.href}"
+              target"blank">${data.title}</a></h3></div>`;
               recipe.innerHTML = template;
             });
           })
